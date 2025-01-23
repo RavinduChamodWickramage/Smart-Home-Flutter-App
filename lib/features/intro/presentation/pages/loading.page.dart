@@ -1,5 +1,7 @@
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:rive_animated_icon/rive_animated_icon.dart';
+import '../../../../helpers/utils.dart';
 
 class LoadingPage extends ConsumerStatefulWidget {
   static const String route = '/loading';
@@ -7,14 +9,24 @@ class LoadingPage extends ConsumerStatefulWidget {
 
   @override
   ConsumerState<LoadingPage> createState() => _LoadingPageState();
-
 }
 
 class _LoadingPageState extends ConsumerState<LoadingPage> {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Center(
+        child: RiveAnimatedIcon(
+          riveIcon: RiveIcon.star,
+          width: 150,
+          height: 150,
+          color: Colors.blue,
+          strokeWidth: 2,
+          loopAnimation: true,
+          onTap: () {},
+        ),
+      ),
+    );
   }
-  
 }

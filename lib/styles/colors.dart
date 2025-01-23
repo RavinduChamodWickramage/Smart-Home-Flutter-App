@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class HomeAutomationColors {
+class SmartHomeColors {
 
   static const Color lightSeedColor = Color(0xFF0055FF);
   static const Color lightPrimary = Color(0xFF0055FF);

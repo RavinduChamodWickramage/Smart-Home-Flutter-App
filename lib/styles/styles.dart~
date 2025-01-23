@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SmartHomeStyles {
+class HomeAutomationStyles {
 
   static const TextStyle elevatedButtonTextStyle = TextStyle(
       color: Colors.black, fontWeight: FontWeight.bold
@@ -37,19 +37,19 @@ class SmartHomeStyles {
   static const double labelLargeSize = 24;
 
   static const TextStyle headlineLarge = TextStyle(
-      fontSize: SmartHomeStyles.largeSize
+      fontSize: HomeAutomationStyles.largeSize
   );
 
   static const TextStyle headlineMedium = TextStyle(
-      fontSize: SmartHomeStyles.mediumSize
+      fontSize: HomeAutomationStyles.mediumSize
   );
 
   static const TextStyle labelLarge = TextStyle(
-      fontSize: SmartHomeStyles.labelLargeSize
+      fontSize: HomeAutomationStyles.labelLargeSize
   );
 
   static const TextStyle labelMedium = TextStyle(
-      fontSize: SmartHomeStyles.labelMediumSize
+      fontSize: HomeAutomationStyles.labelMediumSize
   );
 
   static const SizedBox xsmallVGap = SizedBox(height: 8);

@@ -16,6 +16,7 @@ dependencies:
   flutter_riverpod: ^2.6.1
   go_router: ^14.6.3
   flutter_animate: ^4.5.2
+  rive_animated_icon: ^2.0.3
 
 dev_dependencies:
   flutter_test:
@@ -27,15 +28,14 @@ flutter:
   generate: true
   uses-material-design: true
   assets:
-      - assets/animations/
-      - assets/icons/
+    - assets/icons/
 
   fonts:
     - family: Product Sans
       fonts:
-          - asset: assets/fonts/Product Sans Bold.ttf
-          - asset: assets/fonts/Product Sans Italic.ttf
-          - asset: assets/fonts/Product Sans Regular.ttf
+        - asset: assets/fonts/Product Sans Bold.ttf
+        - asset: assets/fonts/Product Sans Italic.ttf
+        - asset: assets/fonts/Product Sans Regular.ttf
     - family: FlickyIcons
       fonts:
-    - asset: assets/fonts/FlickyIcons.ttf
+        - asset: assets/fonts/FlickyIcons.ttf
