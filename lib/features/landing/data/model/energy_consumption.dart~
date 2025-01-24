@@ -1,0 +1,8 @@
+class EnergyConsumption {
+
+  List<EnergyConsumptionValue>? values = [];
+
+  EnergyConsumption({
+    this.values
+  });
+}
